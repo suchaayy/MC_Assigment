@@ -1,19 +1,16 @@
-# MCAssign3
+# MC_Assigment
 
-Assignment consists of Detecting the activities of the user based on the acceleromter data. 
-Learning the recorded activities using an SVM.
+CSE 535: Mobile Computing. <br />
+Spring 2018. <br />
 
-We use the following library for SVM functionalities:
+The objective of this assignment is to build an application which recognizes human activities using machine learning. To recognize the activities, gathering actual human actions during daily life is the first step. We will solve this gathering issue using the smartphone. Nowadays, most people have their smartphone and the smartphones have many sensors such as accelerometer, gyroscope, orientation, GPS, proximity, etc. By using these sensors, we can obtain the datasets and classify the dataset using support vector machine (SVM).<br />
 
-https://github.com/cjlin1/libsvm  - LibSVM Library
+Java SVM library is used: http://www.csie.ntu.edu.tw/~cjlin/libsvm <br />
 
-For visualization we are using plotly JS in web view
+Data Visualiaztion is done using plotty.
 
-https://plot.ly/
 
-For Performance we are using Trepn Power Profiler
 
-https://developer.qualcomm.com/software/trepn-power-profiler
 
 
 
