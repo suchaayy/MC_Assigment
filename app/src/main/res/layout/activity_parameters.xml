@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+        <TableRow>
+            <TextView
+                android:text="Porbability"
+                android:padding="3dp"
+                android:id="@+id/prob"/>
+            <TextView
+                android:text="1.0"
+                android:padding="3dp"
+                android:id="@+id/probval"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Gamma"
+                android:padding="3dp"
+                android:id="@+id/gamma"/>
+            <TextView
+                android:text="0.5"
+                android:padding="3dp"
+                android:id="@+id/gammaval"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Regularization constant"
+                android:padding="3dp"
+                android:id="@+id/reg"/>
+            <TextView
+                android:text="1"
+                android:padding="3dp"
+                android:id="@+id/regval"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/svm"
+                android:padding="3dp"
+                android:text="SVM Type" />
+            <TextView
+                android:text="C_SVC"
+                android:padding="3dp"
+                android:id="@+id/svmval"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Kernel Type"
+                android:padding="3dp"
+                android:id="@+id/kernel"/>
+            <TextView
+                android:text="Linear"
+                android:padding="3dp"
+                android:id="@+id/kernelval"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Cache Size"
+                android:padding="3dp"
+                android:id="@+id/cache"/>
+            <TextView
+                android:text="20000"
+                android:padding="3dp"
+                android:id="@+id/cacheval"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Epsilon"
+                android:padding="3dp"
+                android:id="@+id/epsilon"/>
+            <TextView
+                android:text="0.001"
+                android:padding="3dp"
+                android:id="@+id/epsilonval"/>
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/kval"
+                android:padding="3dp"
+                android:text="Accuracy" />
+            <TextView
+                android:text="4"
+                android:padding="3dp"
+                android:id="@+id/kvalval"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="K-Fold Cross Validation"
+                android:padding="3dp"
+                android:id="@+id/kcross"/>
+            <TextView
+                android:text=""
+                android:padding="3dp"
+                android:id="@+id/kcrossval"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:id="@+id/activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:text="ACTIVITY"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="121dp" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/run"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:buttonTint="@android:color/background_dark"
+                android:text="RUN"
+                tools:layout_editor_absoluteX="87dp"
+                tools:layout_editor_absoluteY="113dp" />
+
+            <RadioButton
+                android:id="@+id/walk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-60dp"
+                android:layout_marginTop="30dp"
+                android:buttonTint="@android:color/background_dark"
+                android:text="WALK"
+                tools:layout_editor_absoluteX="171dp"
+                tools:layout_editor_absoluteY="113dp" />
+
+            <RadioButton
+                android:id="@+id/Jump"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-70dp"
+                android:layout_marginTop="60dp"
+                android:buttonTint="@android:color/background_dark"
+                android:text="JUMP"
+                tools:layout_editor_absoluteX="263dp"
+                tools:layout_editor_absoluteY="113dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="@android:color/black"
+            android:text="Record"
+            android:textColor="@android:color/background_light"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="268dp" />
+
+        <Button
+            android:id="@+id/train"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:backgroundTint="@android:color/background_dark"
+            android:text="Train"
+            android:textColor="@android:color/background_light"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="268dp" />
+
+        <Button
+            android:id="@+id/ecredit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@android:color/background_dark"
+            android:text="EXTRA CREDIT"
+            android:textColor="@android:color/background_light"
+            tools:layout_editor_absoluteX="276dp"
+            tools:layout_editor_absoluteY="268dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/visual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:backgroundTint="@android:color/background_dark"
+            android:text="Visualization"
+            android:textColor="@android:color/background_light"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="381dp" />
+
+        <Button
+            android:id="@+id/parameter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="@android:color/background_dark"
+            android:text="Parameters"
+            android:textColor="@android:color/background_light"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="381dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/accuracy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@android:color/background_dark"
+        android:text="Accuracy"
+        android:textColor="@android:color/background_light" />
+
+</LinearLayout>
